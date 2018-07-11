@@ -3416,5 +3416,144 @@
       "title": "Crawling and Indexing",
       "description": "To appear in search results, crawlers need access to your app."
     }
+  },
+  "localeLog": {
+    "lighthouse-core/audits/metrics/interactive.js!#title": {
+      "occurrences": [
+        {
+          "path": [
+            "audits",
+            "interactive",
+            "title"
+          ]
+        }
+      ]
+    },
+    "lighthouse-core/audits/metrics/interactive.js!#description": {
+      "occurrences": [
+        {
+          "path": [
+            "audits",
+            "interactive",
+            "description"
+          ]
+        }
+      ]
+    },
+    "lighthouse-core/lib/i18n.js!#ms": {
+      "occurrences": [
+        {
+          "values": {
+            "timeInMs": 4927.278
+          },
+          "path": [
+            "audits",
+            "interactive",
+            "displayValue"
+          ]
+        }
+      ]
+    },
+    "lighthouse-core/audits/byte-efficiency/render-blocking-resources.js!#title": {
+      "occurrences": [
+        {
+          "path": [
+            "audits",
+            "render-blocking-resources",
+            "title"
+          ]
+        }
+      ]
+    },
+    "lighthouse-core/audits/byte-efficiency/render-blocking-resources.js!#description": {
+      "occurrences": [
+        {
+          "path": [
+            "audits",
+            "render-blocking-resources",
+            "description"
+          ]
+        }
+      ]
+    },
+    "lighthouse-core/audits/byte-efficiency/render-blocking-resources.js!#displayValue": {
+      "occurrences": [
+        {
+          "values": {
+            "timeInMs": 1129,
+            "itemCount": 5
+          },
+          "path": [
+            "audits",
+            "render-blocking-resources",
+            "displayValue"
+          ]
+        }
+      ]
+    },
+    "lighthouse-core/lib/i18n.js!#columnURL": {
+      "occurrences": [
+        {
+          "path": [
+            "audits",
+            "render-blocking-resources",
+            "details",
+            "headings",
+            "0",
+            "label"
+          ]
+        }
+      ]
+    },
+    "lighthouse-core/lib/i18n.js!#columnSize": {
+      "occurrences": [
+        {
+          "path": [
+            "audits",
+            "render-blocking-resources",
+            "details",
+            "headings",
+            "1",
+            "label"
+          ]
+        }
+      ]
+    },
+    "lighthouse-core/lib/i18n.js!#columnWastedTime": {
+      "occurrences": [
+        {
+          "path": [
+            "audits",
+            "render-blocking-resources",
+            "details",
+            "headings",
+            "2",
+            "label"
+          ]
+        }
+      ]
+    },
+    "lighthouse-core/config/default-config.js!#metricGroupTitle": {
+      "occurrences": [
+        {
+          "path": [
+            "categoryGroups",
+            "metrics",
+            "title"
+          ]
+        }
+      ]
+    },
+    "lighthouse-core/config/default-config.js!#loadOpportunitiesGroupTitle": {
+      "occurrences": [
+        {
+          "path": [
+            "categoryGroups",
+            "load-opportunities",
+            "title"
+          ]
+        }
+      ]
+    }
   }
 }

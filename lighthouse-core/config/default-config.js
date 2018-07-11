@@ -6,6 +6,14 @@
 'use strict';
 
 const constants = require('./constants');
+const i18nUtils = require('../lib/i18n');
+
+const UIStrings = {
+  metricGroupTitle: 'Metrics',
+  loadOpportunitiesGroupTitle: 'Opportunities',
+}
+
+const i18n = i18nUtils.createStringFormatter(__filename, UIStrings);
 
 /* eslint-disable max-len */
 
@@ -186,10 +194,10 @@ module.exports = {
 
   groups: {
     'metrics': {
-      title: 'Metrics',
+      title: i18n(UIStrings.metricGroupTitle),
     },
     'load-opportunities': {
-      title: 'Opportunities',
+      title: i18n(UIStrings.loadOpportunitiesGroupTitle),
       description: 'These are opportunities to speed up your application by optimizing the following resources.',
     },
     'diagnostics': {
@@ -406,3 +414,7 @@ module.exports = {
     },
   },
 };
+
+Object.defineProperty(module.exports, 'UIStrings', {
+  get: () => UIStrings
+})
